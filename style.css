@@ -3,15 +3,17 @@
 body{
     margin: 0;
     padding: 0;
-    background: #fafaf9;
+    /* background: #fafaf9a9; */
     font-family: "Sora", serif;
+    background: #f4f4f8; /* Fondo más claro y neutro para mejor contraste */
+    color: #232336;      /* Color de texto más oscuro para mejor legibilidad */
     width: 100%;
     height: 100vh;
 }
 
 .card-container{
     box-sizing: border-box;
-    background: #fafaf9;
+    background: #f4f4f8;
     overflow: hidden;
     width: 368px;
     margin: auto;
@@ -52,7 +54,7 @@ body{
 }
 .card-text {
     font-size: 14px;
-    color: #6C727F;
+    color: #20293A;
     line-height: 22px;
     font-weight: 300;
     margin: 0 0 20px 0;
@@ -67,7 +69,7 @@ body{
 .content-2 p{
     width: 100%;
     font-size: 11px;
-    color: #6C727F;
+    color: #20293A;
     line-height: 18px;
     margin: 20px 0 0 0;
     font-weight: 600;
